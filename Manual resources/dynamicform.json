@@ -1,0 +1,77 @@
+[
+    {
+        "label":  "Details",
+        "fields":  [
+                       {
+                           "key":  "name",
+                           "templateOptions":  {
+                                                   "label":  "Name",
+                                                   "required":  true
+                                               },
+                           "type":  "input",
+                           "summaryVisibility":  "Show",
+                           "requiresTemplateOptions":  true,
+                           "requiresKey":  true,
+                           "requiresDataSource":  false
+                       },
+                       {
+                           "key":  "selectUser",
+                           "templateOptions":  {
+                                                   "label":  "Select user",
+                                                   "required":  false,
+                                                   "grid":  {
+                                                                "columns":  [
+                                                                                {
+                                                                                    "headerName":  "Hidden from addresslists",
+                                                                                    "field":  "HiddenFromAddressLists"
+                                                                                },
+                                                                                {
+                                                                                    "headerName":  "S AM Account Name",
+                                                                                    "field":  "sAMAccountName"
+                                                                                },
+                                                                                {
+                                                                                    "headerName":  "Name",
+                                                                                    "field":  "name"
+                                                                                }
+                                                                            ],
+                                                                "height":  300,
+                                                                "rowSelection":  "single"
+                                                            },
+                                                   "dataSourceConfig":  {
+                                                                            "dataSourceGuid":  "$dataSourceGuid_0",
+                                                                            "input":  {
+                                                                                          "propertyInputs":  [
+                                                                                                                 {
+                                                                                                                     "propertyName":  "name",
+                                                                                                                     "otherFieldValue":  {
+                                                                                                                                             "otherFieldKey":  "name"
+                                                                                                                                         }
+                                                                                                                 }
+                                                                                                             ]
+                                                                                      }
+                                                                        },
+                                                   "useFilter":  true,
+                                                   "useDefault":  false
+                                               },
+                           "type":  "grid",
+                           "summaryVisibility":  "Show",
+                           "requiresTemplateOptions":  true,
+                           "requiresKey":  true,
+                           "requiresDataSource":  true
+                       },
+                       {
+                           "key":  "hidefromGal",
+                           "templateOptions":  {
+                                                   "label":  "Hidden from address lists",
+                                                   "useSwitch":  true,
+                                                   "checkboxLabel":  "Toggle to hide mailbox from address lists"
+                                               },
+                           "type":  "boolean",
+                           "summaryVisibility":  "Show",
+                           "requiresTemplateOptions":  true,
+                           "requiresKey":  true,
+                           "requiresDataSource":  false
+                       }
+                   ]
+    }
+]

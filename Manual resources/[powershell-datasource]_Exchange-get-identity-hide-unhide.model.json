@@ -1,0 +1,14 @@
+[
+    {
+        "key":  "HiddenFromAddressLists",
+        "type":  0
+    },
+    {
+        "key":  "sAMAccountName",
+        "type":  0
+    },
+    {
+        "key":  "name",
+        "type":  0
+    }
+]

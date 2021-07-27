@@ -1,0 +1,10 @@
+[
+    {
+        "name":  "hidefromGal",
+        "value":  "{{form.hidefromGal}}"
+    },
+    {
+        "name":  "identity",
+        "value":  "{{form.selectUser.sAMAccountName}}"
+    }
+]
