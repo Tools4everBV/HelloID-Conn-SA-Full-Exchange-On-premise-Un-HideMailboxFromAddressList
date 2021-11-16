@@ -5,7 +5,13 @@ This HelloID Service Automation Delegated Form provides the functionality to hid
  2. The result will show you a list of mailboxes. You will need to select to correct one
  3. Toggle to hide/unhide the mailbox from the addresslist
  4. Hide/Unhide the mailbox from the addresslist
- 
+
+## Versioning
+| Version | Description | Date |
+| - | - | - |
+| 1.0.1   | Added version number and updated all-in-one script | 2021/11/16  |
+| 1.0.0   | Initial release | 2021/04/29  |
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 * [Description](#description)
@@ -44,5 +50,8 @@ This Powershell data source runs a query to search for the mailbox.
 ### Delegated form task 'Exchange On-premise Hide-UnHide from addresslist'
 This delegated form task will hide/unhide the mailbox from the GAL.
 
-# HelloID Docs
+## Getting help
+_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/580-helloid-sa-exchange-on-premises-hide-unhide-mailbox-from-address-lists)_
+
+## HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
