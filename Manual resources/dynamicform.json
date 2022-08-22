@@ -22,16 +22,16 @@
                                                    "grid":  {
                                                                 "columns":  [
                                                                                 {
-                                                                                    "headerName":  "Hidden from addresslists",
-                                                                                    "field":  "HiddenFromAddressLists"
+                                                                                    "headerName":  "Name",
+                                                                                    "field":  "name"
                                                                                 },
                                                                                 {
                                                                                     "headerName":  "S AM Account Name",
                                                                                     "field":  "sAMAccountName"
                                                                                 },
                                                                                 {
-                                                                                    "headerName":  "Name",
-                                                                                    "field":  "name"
+                                                                                    "headerName":  "Hidden from addresslists",
+                                                                                    "field":  "HiddenFromAddressLists"
                                                                                 }
                                                                             ],
                                                                 "height":  300,

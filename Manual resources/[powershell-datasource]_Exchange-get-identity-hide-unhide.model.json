@@ -1,6 +1,6 @@
 [
     {
-        "key":  "HiddenFromAddressLists",
+        "key":  "name",
         "type":  0
     },
     {
@@ -8,7 +8,7 @@
         "type":  0
     },
     {
-        "key":  "name",
+        "key":  "HiddenFromAddressLists",
         "type":  0
     }
 ]

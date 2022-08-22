@@ -9,6 +9,7 @@ This HelloID Service Automation Delegated Form provides the functionality to hid
 ## Versioning
 | Version | Description | Date |
 | - | - | - |
+| 1.0.2   | Added version number and updated code for SA-agent and auditlogging | 2022/08/22  |
 | 1.0.1   | Added version number and updated all-in-one script | 2021/11/16  |
 | 1.0.0   | Initial release | 2021/04/29  |
 
@@ -47,7 +48,7 @@ This Delegated Form uses the following resources in order to run
 ### Powershell data source 'Exchange-get-identity-hide-unhide'
 This Powershell data source runs a query to search for the mailbox.
 
-### Delegated form task 'Exchange On-premise Hide-UnHide from addresslist'
+### Delegated form task 'Exchange on-premise - Hide-UnHide from addresslist'
 This delegated form task will hide/unhide the mailbox from the GAL.
 
 ## Getting help
